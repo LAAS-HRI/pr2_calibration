@@ -17,6 +17,8 @@
   <include file="$(find calibration_launch)/capture_data/annotated_viewer.launch" ns="kinect_head/rgb" />
 
   <include file="$(find calibration_launch)/capture_data/annotated_viewer.launch" ns="kinect_torso/rgb" />
+  
+  <include file="$(find calibration_launch)/capture_data/annotated_viewer.launch" ns="kinect2/hd" />
 
   <include file="$(find pr2_calibration_launch)/capture_data/double_stereo_viewer.launch" />
 

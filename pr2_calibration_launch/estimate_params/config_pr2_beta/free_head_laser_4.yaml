@@ -3,7 +3,7 @@
     right_arm_chain_cb:             [ 1, 1, 1, 0, 1, 1 ]
     left_arm_chain_cb:              [ 1, 1, 1, 0, 1, 1 ]
     high_def_frame_joint:           [ 1, 1, 1, 1, 1, 1 ]
-    head_mount_prosilica_joint:     [ 1, 1, 1, 1, 1, 1 ]
+    head_mount_kinect2_joint:     [ 1, 1, 1, 1, 1, 1 ]
 
   chains:
     right_arm_chain:
@@ -42,6 +42,11 @@
       cx_shift: 0
       cy_shift: 0
     forearm_right_rect:
+      baseline_shift: 0
+      f_shift: 0
+      cx_shift: 0
+      cy_shift: 0
+    kinect2:
       baseline_shift: 0
       f_shift: 0
       cx_shift: 0

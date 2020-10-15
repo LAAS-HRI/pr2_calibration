@@ -12,6 +12,11 @@
     <remap from="kinect_head/image"       to="kinect_head/rgb/image_mono"/>
     <remap from="kinect_head/features"    to="kinect_head/rgb/features"/>
 
+    <remap from="kinect2/camera_info"     to="kinect2/hd/camera_info"/>
+    <remap from="kinect2/image_rect"      to="kinect2/hd/image_mono_rect"/>
+    <remap from="kinect2/image"           to="kinect2/hd/image_mono"/>
+    <remap from="kinect2/features"        to="kinect2/hd/features"/>
+
     <remap from="kinect_torso/camera_info" to="kinect_torso/rgb/camera_info"/>
     <remap from="kinect_torso/image_rect"  to="kinect_torso/rgb/image_mono"/>
     <remap from="kinect_torso/image"       to="kinect_torso/rgb/image_mono"/>

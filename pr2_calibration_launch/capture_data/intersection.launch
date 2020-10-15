@@ -16,6 +16,7 @@
     <remap from="prosilica_rect" to="prosilica/settled_interval" />
     <remap from="prosilica_kinect" to="prosilica_kinect/settled_interval" />
     <remap from="kinect_head" to="kinect_head/rgb/settled_interval" />
+    <remap from="kinect2" to="kinect2/hd/settled_interval" />
     <remap from="kinect_torso" to="kinect_torso/rgb/settled_interval" />
     <remap from="tilt_laser" to="tilt_laser/settled_interval" />
   </node>

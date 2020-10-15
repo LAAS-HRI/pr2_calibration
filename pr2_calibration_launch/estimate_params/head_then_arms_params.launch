@@ -70,8 +70,7 @@
           - wide_left_rect
           - wide_right_rect
           - tilt_laser
-          - prosilica_rect
-          - kinect_torso
+          - kinect2
         </rosparam>
         <param name="output_filename" type="string" value="head_laser_calibrated" />
       </group>

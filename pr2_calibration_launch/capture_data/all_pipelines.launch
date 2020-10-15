@@ -26,6 +26,10 @@
   <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect_torso/rgb" >
     <arg name="image_topic" value="image_mono"/>
   </include>
+  
+  <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect2/hd" >
+    <arg name="image_topic" value="image_mono_rect"/>
+  </include>
 
   <include file="$(find pr2_calibration_launch)/capture_data/intersection.launch" />
   <include file="$(find pr2_calibration_launch)/capture_data/laser_pipelines.launch" />
