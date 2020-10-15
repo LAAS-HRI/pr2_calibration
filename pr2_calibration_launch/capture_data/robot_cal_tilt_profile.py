@@ -33,7 +33,7 @@ if __name__ == '__main__':
     d = .025
     #cmd.time     = [0.0, 0.4,  1.0, 1.1, 1.1+d,  1.2+d, 1.8+d, 2.2+d, 2.2+2*d]
     
-    dur = 15;
+    dur = 10;
     cmd.position = [-.7,  1.2, -.7]
     cmd.time_from_start = [0.0, dur, dur+1]
     cmd.time_from_start = [rospy.Duration.from_sec(x) for x in cmd.time_from_start]
