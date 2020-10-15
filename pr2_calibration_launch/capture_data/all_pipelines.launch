@@ -19,13 +19,13 @@
 
   <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="r_forearm_cam" />
 
-  <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect_head/rgb" >
+  <!-- <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect_head/rgb" >
     <arg name="image_topic" value="image_mono"/>
-  </include>
+  </include> -->
 
-  <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect_torso/rgb" >
+  <!-- <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect_torso/rgb" >
     <arg name="image_topic" value="image_mono"/>
-  </include>
+  </include> -->
   
   <include file="$(find calibration_launch)/capture_data/monocam_pipeline.launch" ns="kinect2/hd" >
     <arg name="image_topic" value="image_mono_rect"/>
@@ -34,9 +34,9 @@
   <include file="$(find pr2_calibration_launch)/capture_data/intersection.launch" />
   <include file="$(find pr2_calibration_launch)/capture_data/laser_pipelines.launch" />
 
-  <machine name="c2" address="c2" env-loader="$(env ROS_ENV_LOADER)" default="True"/>  
+  <!--<machine name="c2" address="c2" env-loader="$(env ROS_ENV_LOADER)" default="True"/>  
   <include file="$(find pr2_calibration_launch)/capture_data/prosilica.launch" />
-  <include file="$(find pr2_calibration_launch)/capture_data/prosilica_kinect.launch" />
+  <include file="$(find pr2_calibration_launch)/capture_data/prosilica_kinect.launch" /> -->
   <machine name="c1" address="c1" env-loader="$(env ROS_ENV_LOADER)" default="True"/>
 
 </launch>

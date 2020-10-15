@@ -64,22 +64,22 @@ sensors:
       cx_shift: 0.0
       cy_shift: 0.0
       cov: {u: 0.125, v: 0.125}
-    prosilica_rect:
-      chain_id: head_chain  #TODO: get rid of this
-      frame_id: high_def_optical_frame
-      baseline_shift: 0.0
-      f_shift: 0.0
-      cx_shift: 0.0
-      cy_shift: 0.0
-      cov: {u: 0.25, v: 0.25}
-    kinect_head:
-      chain_id: head_chain  #TODO: get rid of this
-      frame_id: head_mount_kinect_rgb_optical_frame
-      baseline_shift: 0.0
-      f_shift: 0.0
-      cx_shift: 0.0
-      cy_shift: 0.0
-      cov: {u: 0.25, v: 0.25}
+#    prosilica_rect:
+#      chain_id: head_chain  #TODO: get rid of this
+#      frame_id: high_def_optical_frame
+#      baseline_shift: 0.0
+#      f_shift: 0.0
+#      cx_shift: 0.0
+#      cy_shift: 0.0
+#      cov: {u: 0.25, v: 0.25}
+#    kinect_head:
+#      chain_id: head_chain  #TODO: get rid of this
+#      frame_id: head_mount_kinect_rgb_optical_frame
+#      baseline_shift: 0.0
+#      f_shift: 0.0
+#      cx_shift: 0.0
+#      cy_shift: 0.0
+#      cov: {u: 0.25, v: 0.25}
     kinect2:
       chain_id: head_chain  #TODO: get rid of this
       frame_id: head_mount_kinect2_rgb_optical_frame

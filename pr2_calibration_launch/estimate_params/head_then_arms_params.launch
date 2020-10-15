@@ -89,8 +89,6 @@
           - right_arm_chain
           - forearm_left_rect
           - forearm_right_rect
-          - kinect_head
-          - kinect_torso
         </rosparam>
         <param name="output_filename" type="string" value="system_calibrated" />
       </group>
