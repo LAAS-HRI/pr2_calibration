@@ -29,7 +29,7 @@ tilt_laser:
         subpixel_zero_zone: 2
         flip_horizontal: 1
         min_intensity: 1500
-        max_intensity: 3000
+        max_intensity: 3500
       led_detector:
         active: False
     small_cb_4x5:
