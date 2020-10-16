@@ -13,7 +13,7 @@ tilt_laser:
   configs: 
     cb_7x6:
       settler:
-        tolerance: 2.00
+        tolerance: 4.00
         ignore_failures: False
         max_step: 45.0
         cache_size: 10
@@ -34,7 +34,7 @@ tilt_laser:
         active: False
     small_cb_4x5:
       settler:
-        tolerance: 2.00
+        tolerance: 4.00
         ignore_failures: False
         max_step: 45.0
         cache_size: 10
